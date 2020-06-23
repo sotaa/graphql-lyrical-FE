@@ -13,7 +13,7 @@ class Login extends Component {
 
   componentWillUpdate(nextProps) {
     if (!this.props.data.user && nextProps.data.user) {
-      this.props.history.push("/dashboard");
+      this.props.history.push("/");
     }
   }
 

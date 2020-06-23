@@ -19,3 +19,39 @@
   color: red;
   margin-bottom: 8px;
 }
+
+.song-create-form {
+  margin-top: 45px;
+}
+
+.song-table {
+  margin-top: 45px;
+}
+
+.collection-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.material-icons {
+  cursor: pointer;
+  font-size: 19px;
+  margin-right: 5px;
+}
+
+.trash {
+  color: red;
+}
+
+.thumb {
+  color: rgb(100, 158, 206);
+}
+
+.vote-box {
+  display: flex;
+  align-items: center;
+}
+
+.song-title {
+  margin-bottom: 45px;
+}
